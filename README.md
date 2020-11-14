@@ -26,3 +26,6 @@ Actions for next meeting on 14.11.:
 - definition of roles:
     - back-end / blockchain: Konrad & Alessio
     - business idea / smart contracts / front-end: Valentina, Wali, Hugo, Leonie 
+
+
+Yeah first commit!! 💪 --wali
