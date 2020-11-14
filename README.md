@@ -31,3 +31,5 @@ Actions for next meeting on 21.11.:
 
 - Sharing business ideas and implementations of Food Tracking system
 - Briefing about solidity and how to have a first architecture of the project
+
+First commit!! 💪
