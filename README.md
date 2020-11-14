@@ -28,4 +28,4 @@ Actions for next meeting on 14.11.:
     - business idea / smart contracts / front-end: Valentina, Wali, Hugo, Leonie 
 
 
-Yeah first commit!! 💪 --wali
+Yeah first commit!! 💪 --wali update
