@@ -24,3 +24,5 @@ Actions for next meeting on 14.11.:
 
 - selected use case: Food supply chain tracking
 - definition of roles:
+    - back-end / blockchain: Konrad & Alessio
+    - business idea / smart contracts / front-end: Valentina, Wali, Hugo, Leonie 
