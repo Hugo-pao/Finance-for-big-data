@@ -21,3 +21,6 @@ Actions for next meeting on 14.11.:
 
 
 // 14.11.
+
+- selected use case: Food supply chain tracking
+- definition of roles:
