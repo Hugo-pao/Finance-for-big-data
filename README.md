@@ -32,4 +32,8 @@ Actions for next meeting on 21.11.:
 - Sharing business ideas and implementations of Food Tracking system
 - Briefing about solidity and how to have a first architecture of the project
 
-First commit!! 💪
+// 21.11.
+
+- Solidity tutorials done, starting with the implementation of the smart contracts
+- Definition of the smart contracts and roles (farmer, transporter, ...)
+- Front-end: sketches done, searching for best way to implement MVP
