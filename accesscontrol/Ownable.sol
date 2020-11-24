@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 // basic authorization control 
@@ -15,7 +17,7 @@ contract Ownable {
     }
 
     // Look up the address
-    function ownerLookup() public view returns (address) {
+    function ownerLookup() public view returns (address) { // What's the meaning of public func calling the int ones?
         return origOwner;
     }
 

@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 // library for managing addresses assigned to a Role.
@@ -25,6 +27,6 @@ library Roles {
        // restriction that account has currently access
        require(has(role, account));
        // assign boolean
-       role.bearer[account] == false; 
+       role.bearer[account] = false; 
     }
 }

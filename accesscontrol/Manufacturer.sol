@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 // Import the library 'Roles'
@@ -25,7 +27,7 @@ contract ManufacturerRole {
   }
 
   // Define a function 'isManufacturer' to check this role
-  function isManufacturer(address account) public view returns (bool) {
+  function isManufacturer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
     return manufacturers.has(account);
   }
 

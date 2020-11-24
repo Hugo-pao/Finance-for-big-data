@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 // inherit contracts 
@@ -232,13 +234,13 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
 
     // allows you to convert an address into a payable address
-    function _make_payable(address x) internal pure returns (address payable) {
+    function _make_payable(address x) private pure returns (address payable) {
         return address(uint160(x));
     }
 
     // Define a function 'kill'
-    function kill() public {
-        if (msg.sender == owner) {
+    function kill() private {
+        if (msg.sender == owner) { // best to use require here
         address payable ownerAddressPayable = _make_payable(owner);
         selfdestruct(ownerAddressPayable);
         }
@@ -248,7 +250,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     1st step in supplychain
     Allows farmer to create choloclate 
     */
-    function produceItemByFarmer(uint _upc, string memory _originFarmName, uint _price) public onlyFarmer(){
+    function produceItemByFarmer(uint _upc, string memory _originFarmName, uint _price) private onlyFarmer(){
         address distributorID; // Empty distributorID address
         address manufacturerID; // Empty manufacturerID address
         address retailerID; // Empty retailerID address
@@ -290,7 +292,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     2nd step in supplychain
     Allows farmer to sell chocolate
     */
-    function sellItemByFarmer(uint _upc, uint _price) public
+    function sellItemByFarmer(uint _upc, uint _price) private
         onlyFarmer() // check msg.sender belongs to farmerRole
         producedByFarmer(_upc) // check items state has been produced
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -333,7 +335,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     5th step in supplychain
     Allows distributor to receive chocolate
     */
-    function receivedItemByDistributor(uint _upc) public
+    function receivedItemByDistributor(uint _upc) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
         shippedByFarmer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -345,7 +347,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     6th step in supplychain
     Allows distributor to process chocolate
     */
-    function processedItemByDistributor(uint _upc) public
+    function processedItemByDistributor(uint _upc) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
         receivedByDistributor(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -357,7 +359,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     7th step in supplychain
     Allows distributor to package cheese
     */
-    function packageItemByDistributor(uint _upc) public
+    function packageItemByDistributor(uint _upc) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
         processByDistributor(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -369,7 +371,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     8th step in supplychain
     Allows distributor to sell cheese
     */
-    function sellItemByDistributor(uint _upc, uint _price) public
+    function sellItemByDistributor(uint _upc, uint _price) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
         packagedByDistributor(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -412,7 +414,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     11th step in supplychain
     Allows manufacturer to receive chocolate purchased by distributor
     */
-    function receivedItemByManufacturer(uint _upc) public
+    function receivedItemByManufacturer(uint _upc) private
         onlyManufacturer()
         shippedByDistributor(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is ownerID
@@ -424,7 +426,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     12th step in supplychain
     Allows manufacturer to process chocolate
     */
-    function processedItemByManufacturer(uint _upc) public
+    function processedItemByManufacturer(uint _upc) private
         onlyManufacturer() // check msg.sender belongs to ManufacturerRole
         receivedByManufacturer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -436,7 +438,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     13th step in supplychain
     Allows manufacturer to package chocolate
     */
-    function packageItemByManufacturer(uint _upc) public
+    function packageItemByManufacturer(uint _upc) private
         onlyManufacturer() // check msg.sender belongs to ManufacturerRole
         processedByManufacturer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -448,7 +450,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     14th step in supplychain
     Allows manufacturer to sell chocolate
     */
-    function sellItemByManufacturer(uint _upc, uint _price) public
+    function sellItemByManufacturer(uint _upc, uint _price) private
         onlyManufacturer() // check msg.sender belongs to ManufacturerRole
         packageByManufacturer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is owner
@@ -491,7 +493,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     17th step in supplychain
     Allows retialer to receive chocolate from manufacturer
     */
-    function receivedItemByRetailer(uint _upc) public
+    function receivedItemByRetailer(uint _upc) private
         onlyRetailer() // check msg.sender belongs to RetailerRole
         shippedByManufacturer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is ownerID
@@ -503,7 +505,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     18th step in supplychain
     Allows retailer to sell chocolate
     */
-    function sellItemByRetailer(uint _upc, uint _price) public
+    function sellItemByRetailer(uint _upc, uint _price) private
         onlyRetailer()  // check msg.sender belongs to RetailerRole
         receivedByRetailer(_upc)
         verifyCaller(items[_upc].ownerID) // check msg.sender is ownerID
@@ -534,7 +536,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
 
 
 // Define a function 'fetchItemBufferOne' that fetches the data
-  function fetchItemBufferOne(uint _upc) public view returns
+  function fetchItemBufferOne(uint _upc) private view returns
     (
     uint    itemSKU,
     uint    itemUPC,
@@ -556,7 +558,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
 
  // Define a function 'fetchItemBufferTwo' that fetches the data
-    function fetchItemBufferTwo(uint _upc) public view returns (
+    function fetchItemBufferTwo(uint _upc) private view returns (
         uint    itemSKU,
         uint    itemUPC,
         uint    productPrice,
@@ -581,7 +583,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
 
 // Define a function 'fetchItemHistory' that fetches the data
-  function fetchitemHistory(uint _upc) public view returns
+  function fetchitemHistory(uint _upc) private view returns
     (
       uint blockfarmerToDistributor,
       uint blockDistributorToManufacturer,
@@ -598,9 +600,5 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
         txblock.MTR,
         txblock.RTC
       );
-
     }
-
-
-
 }

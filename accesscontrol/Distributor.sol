@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 // Import the library 'Roles'
@@ -23,7 +25,7 @@ contract DistributorRole {
   }
 
   // Define a function 'isDistributor' to check this role
-  function isDistributor(address account) public view returns (bool) {
+  function isDistributor(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
     return distributors.has(account);
   }
 

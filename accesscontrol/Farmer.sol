@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: UNLICENSED
+
 pragma solidity >=0.4.24;
 
 import "./Roles.sol";
@@ -24,7 +26,7 @@ contract Farmer{
     }
 
     // Define a function 'isFarmer' to check this role
-    function isFarmer(address account) public view returns (bool) {
+    function isFarmer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
         return farmers.has(account);
     }
 
