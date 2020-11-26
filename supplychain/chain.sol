@@ -248,7 +248,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
 
     /*
     1st step in supplychain
-    Allows farmer to create choloclate 
+    Allows farmer to create chocolate 
     */
     function produceItemByFarmer(uint _upc, string memory _originFarmName, uint _price) private onlyFarmer(){
         address distributorID; // Empty distributorID address
@@ -321,7 +321,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
     /*
     4th step in supplychain
-    Allows farmer to ship cheese purchased by distributor
+    Allows farmer to ship chocolate purchased by distributor
     */
     function shippedItemByFarmer(uint _upc) public payable
         onlyFarmer() // check msg.sender belongs to Farmer
@@ -357,7 +357,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
     /*
     7th step in supplychain
-    Allows distributor to package cheese
+    Allows distributor to package chocolate
     */
     function packageItemByDistributor(uint _upc) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
@@ -369,7 +369,7 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
     }
     /*
     8th step in supplychain
-    Allows distributor to sell cheese
+    Allows distributor to sell chocolate
     */
     function sellItemByDistributor(uint _upc, uint _price) private
         onlyDistributor() // check msg.sender belongs to DistributorRole
