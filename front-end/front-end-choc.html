@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ChocCheck</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class = "font">
+    <h1>ChocCheck - track the journey of your chocolate bar</h1>
+  <div class = "step">
+    <p class = "step"> Step 1: Add address to appropriate role</p>
+    <p class = "step"> If false, try again! </p>
+    <p class = "step" id = "divType"></p>
+    <div class = "outline"style = "height: 100px; display: flex;">
+        <button class = "button" data-id="1">Add Farmer</button>
+        <input id = "farmerID" class = "inputFields">
+        <p id = "isFarmer" class = "inputFields"></p>
+    </div>
+
+    <div class = "outline" style = "height: 100px; display: flex;">
+        <button class = "button " data-id="2">Add Distributor</button>
+        <input id = "distributorID" class = "inputFields">
+        <p id = "isDistributor" class = "inputFields"></p>
+    </div>
+      
+    <div class = "outline" style = "height: 100px; display: flex;">
+        <button class = "button" data-id="3">Add Manufacturer</button>
+        <input id = "manufacturerID" class = "inputFields">
+        <p id = "isManufacturer" class = "inputFields"></p>
+    </div>
+
+    <div class = "outline" style = "height: 100px; display: flex;">
+        <button class = "button" data-id="4">Add Retailer</button>
+        <input id = "retailerID" class = "inputFields">
+        <p id = "isRetailer" class = "inputFields"></p>
+    </div>
+
+    <div class = "outline" style = "height: 100px; display: flex;">
+        <button class = "button" data-id="5">Add Consumer</button>
+        <input id = "consumerID" class = "inputFields">
+        <p id = "isConsumer" class = "inputFields"></p>
+    </div>
+</div>
+
+    
+    
+    
+<div class = "step">
+    <p class = "step ">Validate the authenticity of the product</p>
+    <div class = "outline">
+        <div class = "contain">
+            <p class = 'font'>Universal Product Code:</p><input class = "inputFields" id = "upc1">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="21" style="height: 40px; margin: auto;">Fetch Item BufferOne</button>
+        <button class = "button" data-id="22" style="height: 40px; margin: auto;">Fetch Item BufferTwo</button>
+        <button class = "button" data-id="23" style="height: 40px; margin: auto;">Fetch Item History</button>
+    </div>
+    <div id = "BlockInfoBufferOne">
+
+    </div>
+</div>
+    
+<div class = "step">
+    <p class = "step">Farmer Produced Product (ONLY FARMER)</p>
+    <div class = "outline">
+        <div class = "contain font">
+            <p>Origin Farm Name:</p><input id = "FN" class = "inputFields" value="Cacao Oro">
+            <p>Origin Farm Information:</p><input id = "FI" class = "inputFields" value="Risco de Oro, Nicaragua">
+            <p>Origin Farm Latitude:</p><input id = "FLA" class = "inputFields" value="14.088003">
+            <p>Origin Farm Longitiude:</p><input id = "FLO" class = "inputFields" value="-84.20473">
+            <p>Product Notes:</p><input id = "PN" class = "inputFields" value="Premium">
+            <p>Product Price:</p><input id = "PP" class = "inputFields" value="50">
+            <p>Universal Product Code:</p><input  id = "upc" class = "inputFields" value = "1" type="number">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="9"> Step 2: Produce Item By Farmer </button>
+        <p id = "pr" class = "font">
+        </p>
+    </div>
+</div>
+        
+<div class = "step">
+    <p class = "step">Process Product (only distributor and manufacturer) </p>
+    <div class = "outline">
+        <div class = "contain font">
+            <p>Universal Product Code:</p><input id = "processupc" class = "inputFields">
+            <p>Number of chocolate bars:</p><input id = "processnumber" type="number" class = "inputFields">
+        </div>
+    </div>
+    <div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="7"> Step 7: Process Item By Distributor </button>
+        <p id = "pibd" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="13"> Step 13: Process Item By Manufacturer </button>
+        <p id = "pibm" class = "font"></p>
+    </div>
+  </div>
+</div>
+    
+<div class = "step">
+    <p class = "step">Package Product (only distributor and manufacturer) </p>
+    <div class = "outline">
+        <div class = "contain font">
+            <p>Universal Product Code:</p><input id = "packageupc" class = "inputFields">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="8"> Step 8: Package Item By Distributor </button>
+        <p id = "paibd" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="14"> Step 14: Package Item By Manufacturer </button>
+        <p id = "paibd" class = "font"></p>
+    </div>
+</div>
+
+<div class = "step">
+    <p class = "step">Sell Product </p>
+    <div class = "outline">
+        <div class = "contain font">
+            <p>Universal Product Code:</p><input id = "sellupc" class = "inputFields">
+            <p>Product Price:</p><input id = "sellprice"  class = "inputFields">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="3">Step 3: Sell Item By Farmer</button>
+        <p id = "srf" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="9">Step 9: Sell Item By Distributor</button>
+        <p id = "srd" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="15">Step 15: Sell Item By Manufacturer</button>
+        <p id = "srm" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="19">Step 19: Sell Item By Retailer</button>
+          <p id = "sibr" class = "font"></p>
+    </div>
+</div>
+<div class = "step">
+    <p class = "step">Purchased Product </p>
+    <div class = "outline">
+        <div class = "contain">
+            <p>Universal Product Code:</p><input id = "purchaseupc" class = "inputFields">
+        </div>
+    </div>
+
+      <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="4">Step 4: Purchase Item By Distributor</button>
+        <p id = "pid" class = "font"></p>
+      </div>
+      <div class = "outline" style="margin: 1%; display: flex;">
+          <button class = "button" data-id="10">Step 10: Purchase Item By Manufacturer</button>
+        <p id = "pim" class = "font"></p>
+      </div>
+      <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="16" >Step 16: Purchase Item By Retailer</button>
+        <p id = "pir" class = "font"></p>
+      </div>
+      <div class = "outline" style="margin: 1%; display: flex;">
+        <button class = "button" data-id="20">Step 20: Purchase Item By Consumer</button>
+        <p id = "pic" class = "font"></p>
+      </div>
+  </div>
+
+<div class = "step">
+    <p class = "step">Ship Product </p>
+    <div class = "outline">
+        <div class = "contain">
+            <p>Universal Product Code:</p><input id = "shipupc" class = "inputFields">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="5" >Step 5: Ship Item By Farmer</button>
+        <p id = "sibf" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="11" >Step 11: Ship Item By Distributor</button>
+        <p id = "sibd" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="17" >Step 17: Ship Item By Manufacturer</button>
+        <p id = "sibm" class = "font"></p>
+    </div>
+</div>
+
+<div class = "step">
+    <p class = "step">Received Product </p>
+    <div class = "outline">
+        <div class = "contain">
+            <p>Universal Product Code:</p><input id = "receiveupc" class = "inputFields">
+        </div>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="6">Step 6: Received Item By Distributor</button>
+        <p id = "ribd" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="12">Step 12: Received Item By Manufacturer</button>
+        <p id = "ribm" class = "font"></p>
+    </div>
+    <div class = "outline" style="margin: 1%;">
+        <button class = "button" data-id="18">Step 18: Received Item By Retailer</button>
+        <p id = "ribr" class = "font"></p>
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="js/web3.min.js"></script> -->
+    <script src="js/truffle-contract-choc.js"></script>
+    <script src="js/app-choc.js"></script>
+</body>
+
+</html>

@@ -275,39 +275,8 @@ App = {
           resultTag.innerText = "  Error: "+err.message;
         });
     },
-    
-    //3
-    addRetailer: function(event) {
-        event.preventDefault();
-        var processId = parseInt($(event.target).data('id'));
-        var resultTag = document.getElementById("isRetailer");
-        App.contracts.SupplyChain.deployed().then(async function(instance) {
-            resultTag.className = " loader";
-            var checkRole = await instance.isRetailer(App.RetailerID);
-            if (checkRole == false){
-              await instance.addRetailer(
-                  App.RetailerID,
-                  {from: App.metamaskAccountID, gas:3000000}
-              );
-            }
-            sleep(1000);
-            checkRole = await instance.isRetailer(App.RetailerID);
-            return checkRole;
-        }).then(function(result) {
-            resultTag.className = " inputFields";
-            resultTag.innerText = result;
-            if (result == true){
-                resultTag.style.color = "green"
-            }else{
-                resultTag.style.color = "red"
-            }
-        }).catch(function(err) {
-          resultTag.className = " inputFields";
-          resultTag.innerText = "  Error: "+err.message;
-        });
-    },
-    
-     //4
+        
+     //3
     addManufacturer: function(event) {
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
@@ -323,6 +292,37 @@ App = {
             }
             sleep(1000);
             checkRole = await instance.isManufacturer(App.ManufacturerID);
+            return checkRole;
+        }).then(function(result) {
+            resultTag.className = " inputFields";
+            resultTag.innerText = result;
+            if (result == true){
+                resultTag.style.color = "green"
+            }else{
+                resultTag.style.color = "red"
+            }
+        }).catch(function(err) {
+          resultTag.className = " inputFields";
+          resultTag.innerText = "  Error: "+err.message;
+        });
+    },
+    
+    //4
+    addRetailer: function(event) {
+        event.preventDefault();
+        var processId = parseInt($(event.target).data('id'));
+        var resultTag = document.getElementById("isRetailer");
+        App.contracts.SupplyChain.deployed().then(async function(instance) {
+            resultTag.className = " loader";
+            var checkRole = await instance.isRetailer(App.RetailerID);
+            if (checkRole == false){
+              await instance.addRetailer(
+                  App.RetailerID,
+                  {from: App.metamaskAccountID, gas:3000000}
+              );
+            }
+            sleep(1000);
+            checkRole = await instance.isRetailer(App.RetailerID);
             return checkRole;
         }).then(function(result) {
             resultTag.className = " inputFields";
@@ -834,7 +834,7 @@ App = {
           "SKU: "+result[0]+"<br>"+
           "UPC: "+result[1]+"<br>"+
           "Product ID: "+result[2]+"<br>"+
-          //"Product Notes: "+result[3]+"<br>"+
+          "Product Notes: "+result[3]+"<br>"+
           "Product Price: "+result[4]+"<br>"+
           "Product Date: "+myDate+"<br>"+
           "Item State: "+result[6]+"<br>"+
@@ -865,7 +865,6 @@ App = {
             console.log(err.message);
         });
     },
-
 };
 
 $(function () {
