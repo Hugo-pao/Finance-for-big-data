@@ -1,13 +1,13 @@
 // migrating the appropriate contracts
 
-// wie heissen die files? FarmerRole.sol oder Farmer.sol?
+//check file names of .sol roles
 
-var FarmerRole = artifacts.require("./FarmerRole.sol");
-var DistributorRole = artifacts.require("./DistributorRole.sol");
-var ManufacturerRole = artifacts.require("./ManufacturerRole.sol");
-var RetailerRole = artifacts.require("./RetailerRole.sol");
-var ConsumerRole = artifacts.require("./ConsumerRole.sol");
-var SupplyChain = artifacts.require("./SupplyChain.sol"); //heisst die einfach chain.sol ?
+var FarmerRole = artifacts.require("./Farmer.sol");
+var DistributorRole = artifacts.require("./Distributor.sol");
+var ManufacturerRole = artifacts.require("./Manufacturer.sol");
+var RetailerRole = artifacts.require("./Retailer.sol");
+var ConsumerRole = artifacts.require("./Consumer.sol");
+var SupplyChain = artifacts.require("./chain.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(FarmerRole);
