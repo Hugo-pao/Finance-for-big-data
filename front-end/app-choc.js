@@ -6,10 +6,6 @@ App = {
     ownerID: "0x0000000000000000000000000000000000000000",
     originFarmerID: "0x0000000000000000000000000000000000000000",
     originFarmName: null,
-    //originFarmInformation: null,
-    //originFarmLatitude: null,
-    //originFarmLongitude: null,
-    //productNotes: null,
     productPrice: 0,
     distributorID: "0x0000000000000000000000000000000000000000",
     manufacturerID: "0x0000000000000000000000000000000000000000",
@@ -26,14 +22,8 @@ App = {
 
     readForm: function () {
         App.upc = $("#upc").val();
-        //App.originFarmName = $("#FN").val();
-        //App.originFarmInformation = $("#FI").val();
-        //App.originFarmLatitude = $("#FLA").val();
-        //App.originFarmLongitude = $("#FLO").val();
-        //App.productNotes = $("#PN").val();
+        App.originFarmName = $("#FN").val();
         App.productPrice = $("#PP").val();
-
-
     },
 
     initWeb3: async function () {
@@ -235,12 +225,10 @@ App = {
                 resultTag.style.color = "green"
             }else{
                 resultTag.style.color = "red"
-
             }
         }).catch(function(err) {
           resultTag.className = " inputFields";
           resultTag.innerText = "  Error: "+err.message;
-
         });
     },
     
@@ -255,7 +243,6 @@ App = {
             if(checkRole == false){
               await instance.addDistributor(App.DistributorID,
                   {from: App.metamaskAccountID, gas:3000000}
-
               );
             }
             sleep(1000);
@@ -268,9 +255,7 @@ App = {
                 resultTag.style.color = "green"
             }else{
                 resultTag.style.color = "red"
-
             }
-
         }).catch(function(err) {
           resultTag.innerText = "  Error: "+err.message;
         });
@@ -380,10 +365,6 @@ App = {
             return instance.produceItemByFarmer(
                 upc,
                 App.originFarmName,
-                App.originFarmInformation,
-                App.originFarmLatitude,
-                App.originFarmLongitude,
-                App.productNotes,
                 App.productPrice,
                 {from: App.originFarmerID, gas:3000000}
             );
@@ -435,14 +416,11 @@ App = {
           }).catch(function(err) {
               resultTag.className = " font";
               resultTag.innerText = "  Error: "+err.message;
-
           });
         }).catch(function(err) {
           resultTag.className = " font";
           resultTag.innerText = "  Error: "+err.message;
-
         });
-
     },
 
     //9
@@ -798,18 +776,12 @@ App = {
           }
           var myDate = new Date(result[8].c[0] *1000);
           displayTo.innerHTML = (
-
           "SKU: "+result[0]+"<br>"+
           "UPC: "+result[1]+"<br>"+
           "Owner ID: "+result[2]+"<br>"+
           "Origin Farmer ID: "+result[3]+"<br>"+
-          //"Origin Farm Name: "+result[4]+"<br>"+
-          //"Origin Farm Information: "+result[5]+"<br>"+
-          //"Origin Farm Latitude: "+result[6]+"<br>"+
-          //"Origin Farm Longitude: "+result[7]+"<br>"+
-          "Product Date: "+myDate+"<br>"+
-          //"Product Sliced: "+result[9]);
-
+          "Origin Farm Name: "+result[4]+"<br>"+
+          "Product Date: "+myDate+"<br>"
         }).catch(function(err) {
           console.log(err.message);
         });
@@ -827,21 +799,18 @@ App = {
           while (displayTo.firstChild) {
               displayTo.removeChild(displayTo.firstChild);
           }
-
-          var myDate = new Date(result[5].c[0] *1000);
-
+          var myDate = new Date(result[4].c[0] *1000);
           displayTo.innerHTML = (
           "SKU: "+result[0]+"<br>"+
           "UPC: "+result[1]+"<br>"+
           "Product ID: "+result[2]+"<br>"+
-          "Product Notes: "+result[3]+"<br>"+
-          "Product Price: "+result[4]+"<br>"+
+          "Product Price: "+result[3]+"<br>"+
           "Product Date: "+myDate+"<br>"+
-          "Item State: "+result[6]+"<br>"+
-          "Distributor ID: "+result[7]+"<br>"+
-          "Manufacturer ID: "+result[8]
-          "Retailer ID: "+result[9]+"<br>"+
-          "Consumer ID: "+result[10]);
+          "Item State: "+result[5]+"<br>"+
+          "Distributor ID: "+result[6]+"<br>"+
+          "Manufacturer ID: "+result[7]+"<br>"+
+          "Retailer ID: "+result[8]+"<br>"+
+          "Consumer ID: "+result[9]);
         }).catch(function(err) {
           console.log(err.message);
         });
