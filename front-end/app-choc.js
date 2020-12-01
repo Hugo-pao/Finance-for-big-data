@@ -12,13 +12,11 @@ App = {
     retailerID: "0x0000000000000000000000000000000000000000",
     consumerID: "0x0000000000000000000000000000000000000000",
 
-
     init: async function () {
         App.readForm();
         /// Setup access to blockchain
         return await App.initWeb3();
     },
-
 
     readForm: function () {
         App.upc = $("#upc").val();
@@ -48,7 +46,6 @@ App = {
         else {
             App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
         }
-
         //App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
         //App.getMetaskAccountID();
         return App.initSupplyChain();
@@ -63,7 +60,6 @@ App = {
                 console.log('Error:',err);
                 return;
             }
-            
             App.metamaskAccountID = res[0];
             if (res.length > 1){
             document.getElementById("divType").innerText = "Ganache Address"
@@ -87,7 +83,6 @@ App = {
             App.RetailerID = document.getElementById("retailerID").value;
             App.ConsumerID = document.getElementById("consumerID").value;
           }
-
         })
     },
 
@@ -102,7 +97,6 @@ App = {
             App.contracts.SupplyChain = TruffleContract(SupplyChainArtifact);
             App.contracts.SupplyChain.setProvider(App.web3Provider);
         });
-
         return App.bindEvents();
     },
 
@@ -199,8 +193,8 @@ App = {
                 return await App.purchaseItemByConsumer(event);
                 break;
             }
-
     },
+    
     //1
     addFarmer: function(event) {
         event.preventDefault();
