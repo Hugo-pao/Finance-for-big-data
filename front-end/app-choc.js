@@ -775,9 +775,9 @@ App = {
           "Owner ID: "+result[2]+"<br>"+
           "Origin Farmer ID: "+result[3]+"<br>"+
           "Origin Farm Name: "+result[4]+"<br>"+
-          "Product Date: "+myDate+"<br>"
+          "Product Date: "+myDate)
         }).catch(function(err) {
-          console.log(err.message);
+            console.log(err.message);
         });
     },
 
