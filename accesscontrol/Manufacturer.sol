@@ -6,7 +6,7 @@ pragma solidity >=0.4.24;
 import "./Roles.sol";
 
 // Define a contract 'ManufacturerRole' to manage this role - add, remove, check
-contract ManufacturerRole {
+contract ManufacturerRole{
   using Roles for Roles.Role;
   // Define 2 events, one for Adding, and other for Removing
   event ManufacturerAdded(address indexed account);
@@ -16,7 +16,7 @@ contract ManufacturerRole {
   Roles.Role private manufacturers;
 
   // In the constructor make the address that deploys this contract the 1st consumer
-  constructor() {
+  constructor() public {
     _addManufacturer(msg.sender);
   }
 

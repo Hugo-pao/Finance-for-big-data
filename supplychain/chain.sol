@@ -226,8 +226,8 @@ contract SupplyChain is Ownable, Farmer, DistributorRole, ManufacturerRole, Reta
         _;
     }
 
-    // constructor setup owner sku upc
-    constructor() payable {
+    // constructor setup owner sku upc CHANGED PAYABLE TO PUBLIC (WALI)
+    constructor() public {
         owner = msg.sender;
         sku = 1;
         upc = 1;

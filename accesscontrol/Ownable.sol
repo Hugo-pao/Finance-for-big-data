@@ -3,14 +3,14 @@
 pragma solidity >=0.4.24;
 
 // basic authorization control 
-contract Ownable {
+contract Ownable{
     address private origOwner; 
 
     // Event (stored in transaction logs)
     event TransferOwnership(address indexed oldOwner, address indexed newOwner);
 
     // Assign the contract to an owner
-    constructor () {
+    constructor () public {
         origOwner = msg.sender;
         // For front-end
         emit TransferOwnership(address(0), origOwner); //old owner is no-one -> address(0) solidity standard
