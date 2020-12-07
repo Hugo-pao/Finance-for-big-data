@@ -1,6 +1,6 @@
 # Finance for Big Data | Bocconi University
 
-## Project Outline:
+## Project Outline
 This project is part of the Finance with Big Data course at Bocconi University. In this repo, we develop a Solidity-based supply chain contract, which is focused on chocolate production. 
 
 We allow for the following participants on our chain: 
@@ -19,7 +19,7 @@ For each of the roles (consumer below as example), we define the following funct
 - addConsumer: adds current address to consumer role
 - renounceConsumer: renounces current role as consumer
 
-## Supply Chain:
+## Supply Chain
 
 ## Deployment
 First time use:
