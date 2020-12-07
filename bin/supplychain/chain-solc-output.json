@@ -1,6 +1,6 @@
 {
     "contracts": {
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol": {
+        "Finance-for-big-data/accesscontrol/Consumer.sol": {
             "ConsumerRole": {
                 "abi": [
                     {
@@ -121,7 +121,7 @@
                         "renounceConsumer(address)": "f487d48d"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isConsumer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol\":\"ConsumerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol\":{\"keccak256\":\"0x9d0c33c886bf84cab524b8f6df4e75de96a7a138630a97027c3390de8d71d601\",\"urls\":[\"bzz-raw://75a45b1d63e18e6932da1e1ead61c1a16f52d1d91e8afcb5b65122580f70e673\",\"dweb:/ipfs/QmXzavoRtPvprSaimvBeqe8DiXG1E9WiAWaj3YEKD6hpXK\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isConsumer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Consumer.sol\":\"ConsumerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Consumer.sol\":{\"keccak256\":\"0x9d0c33c886bf84cab524b8f6df4e75de96a7a138630a97027c3390de8d71d601\",\"urls\":[\"bzz-raw://75a45b1d63e18e6932da1e1ead61c1a16f52d1d91e8afcb5b65122580f70e673\",\"dweb:/ipfs/QmXzavoRtPvprSaimvBeqe8DiXG1E9WiAWaj3YEKD6hpXK\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -129,7 +129,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol": {
+        "Finance-for-big-data/accesscontrol/Distributor.sol": {
             "DistributorRole": {
                 "abi": [
                     {
@@ -244,7 +244,7 @@
                         "renounceDistributor()": "644241db"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDistributor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol\":\"DistributorRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol\":{\"keccak256\":\"0xbf141b596c1b5025d01130d23339461809a8900ca79f3a32ceceb2b38e49b044\",\"urls\":[\"bzz-raw://1e5d2023d6ea862e63f07eb16e1783d6f3890c6d84640795725729036bd4efa5\",\"dweb:/ipfs/QmZxFNq6kV3SJtA5L8EYKr7mD8eMV7MUUFfR4vGtgQmMTS\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDistributor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Distributor.sol\":\"DistributorRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Distributor.sol\":{\"keccak256\":\"0xbf141b596c1b5025d01130d23339461809a8900ca79f3a32ceceb2b38e49b044\",\"urls\":[\"bzz-raw://1e5d2023d6ea862e63f07eb16e1783d6f3890c6d84640795725729036bd4efa5\",\"dweb:/ipfs/QmZxFNq6kV3SJtA5L8EYKr7mD8eMV7MUUFfR4vGtgQmMTS\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -252,7 +252,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol": {
+        "Finance-for-big-data/accesscontrol/Farmer.sol": {
             "Farmer": {
                 "abi": [
                     {
@@ -367,7 +367,7 @@
                         "renounceFarmer()": "80fc0ce4"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isFarmer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol\":\"Farmer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol\":{\"keccak256\":\"0x25bf18b7d0523618e24c7aafb0902cc821b34b2513d269a527998af22eef0e91\",\"urls\":[\"bzz-raw://c12ea0c7d8ed6f4cb437b8a7d57ed19515e7c68f6881f16351187bb5693b80db\",\"dweb:/ipfs/Qmc9k8PubXGFhyiPtxqyduk3QvYTDGZjPZF6bt4f6NpKYa\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isFarmer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Farmer.sol\":\"Farmer\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Farmer.sol\":{\"keccak256\":\"0x25bf18b7d0523618e24c7aafb0902cc821b34b2513d269a527998af22eef0e91\",\"urls\":[\"bzz-raw://c12ea0c7d8ed6f4cb437b8a7d57ed19515e7c68f6881f16351187bb5693b80db\",\"dweb:/ipfs/Qmc9k8PubXGFhyiPtxqyduk3QvYTDGZjPZF6bt4f6NpKYa\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -375,7 +375,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol": {
+        "Finance-for-big-data/accesscontrol/Manufacturer.sol": {
             "ManufacturerRole": {
                 "abi": [
                     {
@@ -496,7 +496,7 @@
                         "renounceManufacturer(address)": "b8699916"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isManufacturer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol\":\"ManufacturerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol\":{\"keccak256\":\"0xf844b7f9d4e240700c37c15ab0450402f781e640d4e96ee2fbcac6417378076a\",\"urls\":[\"bzz-raw://830bd4209bf250eb1e21e79ccfe0fdf3be529d90bac02e341eab70d51928ee61\",\"dweb:/ipfs/QmaBSrFpvgyVhkyQE32tTBKFSpafUXEcZtB2VVdHhMgdMh\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isManufacturer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Manufacturer.sol\":\"ManufacturerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Manufacturer.sol\":{\"keccak256\":\"0xf844b7f9d4e240700c37c15ab0450402f781e640d4e96ee2fbcac6417378076a\",\"urls\":[\"bzz-raw://830bd4209bf250eb1e21e79ccfe0fdf3be529d90bac02e341eab70d51928ee61\",\"dweb:/ipfs/QmaBSrFpvgyVhkyQE32tTBKFSpafUXEcZtB2VVdHhMgdMh\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -504,7 +504,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol": {
+        "Finance-for-big-data/accesscontrol/Ownable.sol": {
             "Ownable": {
                 "abi": [
                     {
@@ -620,7 +620,7 @@
                         "transferOwnership(address)": "f2fde38b"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"oldOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"TransferOwnership\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ownerLookup\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol\":{\"keccak256\":\"0xa9e8434199907a35031be01e5400c65634165325879f8c914d62e2c167c94bc6\",\"urls\":[\"bzz-raw://46775e0b604487bd7210a2841d2cf028078e2f1a17a4c83f9d3882127f77d255\",\"dweb:/ipfs/QmWdAZeaCoszmfg5KTnTWE6uojR7aFTFgTXHC7Sp43o9nu\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"oldOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"TransferOwnership\",\"type\":\"event\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ownerLookup\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Ownable.sol\":\"Ownable\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Ownable.sol\":{\"keccak256\":\"0xa9e8434199907a35031be01e5400c65634165325879f8c914d62e2c167c94bc6\",\"urls\":[\"bzz-raw://46775e0b604487bd7210a2841d2cf028078e2f1a17a4c83f9d3882127f77d255\",\"dweb:/ipfs/QmWdAZeaCoszmfg5KTnTWE6uojR7aFTFgTXHC7Sp43o9nu\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -628,7 +628,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol": {
+        "Finance-for-big-data/accesscontrol/Retailer.sol": {
             "RetailerRole": {
                 "abi": [
                     {
@@ -743,7 +743,7 @@
                         "renounceRetailer()": "db0e6a2f"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRetailer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol\":\"RetailerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol\":{\"keccak256\":\"0xc9025d118029ba448920eb71df71fc4794806db0b59fa2399640145d056c8958\",\"urls\":[\"bzz-raw://dae3cbac68e60a043a7d0ccc6716a6398b93a61df3396ef47df006fc828d843e\",\"dweb:/ipfs/QmetLnThWaui5VT5WJXW84FnGf3Ajq7feuoEBbKuxE4frr\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerRemoved\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRetailer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Retailer.sol\":\"RetailerRole\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Retailer.sol\":{\"keccak256\":\"0xc9025d118029ba448920eb71df71fc4794806db0b59fa2399640145d056c8958\",\"urls\":[\"bzz-raw://dae3cbac68e60a043a7d0ccc6716a6398b93a61df3396ef47df006fc828d843e\",\"dweb:/ipfs/QmetLnThWaui5VT5WJXW84FnGf3Ajq7feuoEBbKuxE4frr\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -751,7 +751,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol": {
+        "Finance-for-big-data/accesscontrol/Roles.sol": {
             "Roles": {
                 "abi": [],
                 "devdoc": {
@@ -787,7 +787,7 @@
                     },
                     "methodIdentifiers": {}
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":\"Roles\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/accesscontrol/Roles.sol\":\"Roles\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -795,7 +795,7 @@
                 }
             }
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/supplychain/chain.sol": {
+        "Finance-for-big-data/supplychain/chain.sol": {
             "SupplyChain": {
                 "abi": [
                     {
@@ -1982,7 +1982,7 @@
                         "transferOwnership(address)": "f2fde38b"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"payable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PackageByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PackageByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProcessedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProcessedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProduceByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByConsumer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"oldOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"TransferOwnership\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchItemBufferOne\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"itemSKU\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"itemUPC\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"ownerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"originFarmerID\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"originFarmName\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchItemBufferTwo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"itemSKU\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"itemUPC\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"productPrice\",\"type\":\"uint256\"},{\"internalType\":\"enum SupplyChain.State\",\"name\":\"itemState\",\"type\":\"uint8\"},{\"internalType\":\"address\",\"name\":\"distributorID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"manufacturerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"retailerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"consumerID\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchitemHistory\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"blockfarmerToDistributor\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockDistributorToManufacturer\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockManufacturerToRetailer\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockRetailerToConsumer\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isConsumer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDistributor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isFarmer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isManufacturer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRetailer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kill\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ownerLookup\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"packageItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"packageItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"processedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"processedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_originFarmName\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"produceItemByFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByConsumer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByDistributor\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByRetailer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByFarmer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/supplychain/chain.sol\":\"SupplyChain\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol\":{\"keccak256\":\"0x9d0c33c886bf84cab524b8f6df4e75de96a7a138630a97027c3390de8d71d601\",\"urls\":[\"bzz-raw://75a45b1d63e18e6932da1e1ead61c1a16f52d1d91e8afcb5b65122580f70e673\",\"dweb:/ipfs/QmXzavoRtPvprSaimvBeqe8DiXG1E9WiAWaj3YEKD6hpXK\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol\":{\"keccak256\":\"0xbf141b596c1b5025d01130d23339461809a8900ca79f3a32ceceb2b38e49b044\",\"urls\":[\"bzz-raw://1e5d2023d6ea862e63f07eb16e1783d6f3890c6d84640795725729036bd4efa5\",\"dweb:/ipfs/QmZxFNq6kV3SJtA5L8EYKr7mD8eMV7MUUFfR4vGtgQmMTS\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol\":{\"keccak256\":\"0x25bf18b7d0523618e24c7aafb0902cc821b34b2513d269a527998af22eef0e91\",\"urls\":[\"bzz-raw://c12ea0c7d8ed6f4cb437b8a7d57ed19515e7c68f6881f16351187bb5693b80db\",\"dweb:/ipfs/Qmc9k8PubXGFhyiPtxqyduk3QvYTDGZjPZF6bt4f6NpKYa\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol\":{\"keccak256\":\"0xf844b7f9d4e240700c37c15ab0450402f781e640d4e96ee2fbcac6417378076a\",\"urls\":[\"bzz-raw://830bd4209bf250eb1e21e79ccfe0fdf3be529d90bac02e341eab70d51928ee61\",\"dweb:/ipfs/QmaBSrFpvgyVhkyQE32tTBKFSpafUXEcZtB2VVdHhMgdMh\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol\":{\"keccak256\":\"0xa9e8434199907a35031be01e5400c65634165325879f8c914d62e2c167c94bc6\",\"urls\":[\"bzz-raw://46775e0b604487bd7210a2841d2cf028078e2f1a17a4c83f9d3882127f77d255\",\"dweb:/ipfs/QmWdAZeaCoszmfg5KTnTWE6uojR7aFTFgTXHC7Sp43o9nu\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol\":{\"keccak256\":\"0xc9025d118029ba448920eb71df71fc4794806db0b59fa2399640145d056c8958\",\"urls\":[\"bzz-raw://dae3cbac68e60a043a7d0ccc6716a6398b93a61df3396ef47df006fc828d843e\",\"dweb:/ipfs/QmetLnThWaui5VT5WJXW84FnGf3Ajq7feuoEBbKuxE4frr\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]},\"/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/supplychain/chain.sol\":{\"keccak256\":\"0x041610ff8b4c75420a3303fc8f497767a15f07468b0431a6a44d93cb1bc0e1ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://5859b7d22685950a191effbff9c0de667f0c1d9ea6e82dd32df96ae80517ec6b\",\"dweb:/ipfs/QmVUxDppq7EGvZrrwkFa53asMgU2wwFxXPYL6oSuGGuR7s\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"payable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ConsumerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"DistributorRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"FarmerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ForSaleByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"ManufacturerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PackageByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PackageByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProcessedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProcessedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ProduceByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByConsumer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"PurchasedByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ReceivedByRetailer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerAdded\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"RetailerRemoved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByDistributor\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByFarmer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"upc\",\"type\":\"uint256\"}],\"name\":\"ShippedByManufacturer\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"oldOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"TransferOwnership\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"addRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchItemBufferOne\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"itemSKU\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"itemUPC\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"ownerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"originFarmerID\",\"type\":\"address\"},{\"internalType\":\"string\",\"name\":\"originFarmName\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchItemBufferTwo\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"itemSKU\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"itemUPC\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"productPrice\",\"type\":\"uint256\"},{\"internalType\":\"enum SupplyChain.State\",\"name\":\"itemState\",\"type\":\"uint8\"},{\"internalType\":\"address\",\"name\":\"distributorID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"manufacturerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"retailerID\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"consumerID\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"fetchitemHistory\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"blockfarmerToDistributor\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockDistributorToManufacturer\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockManufacturerToRetailer\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"blockRetailerToConsumer\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isConsumer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isDistributor\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isFarmer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isManufacturer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"isOwner\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"isRetailer\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"kill\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"ownerLookup\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"packageItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"packageItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"processedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"processedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"_originFarmName\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"produceItemByFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByConsumer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByDistributor\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"purchaseItemByRetailer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"receivedItemByRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceConsumer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"}],\"name\":\"renounceManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByDistributor\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByFarmer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_price\",\"type\":\"uint256\"}],\"name\":\"sellItemByRetailer\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByDistributor\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByFarmer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_upc\",\"type\":\"uint256\"}],\"name\":\"shippedItemByManufacturer\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Finance-for-big-data/supplychain/chain.sol\":\"SupplyChain\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"Finance-for-big-data/accesscontrol/Consumer.sol\":{\"keccak256\":\"0x9d0c33c886bf84cab524b8f6df4e75de96a7a138630a97027c3390de8d71d601\",\"urls\":[\"bzz-raw://75a45b1d63e18e6932da1e1ead61c1a16f52d1d91e8afcb5b65122580f70e673\",\"dweb:/ipfs/QmXzavoRtPvprSaimvBeqe8DiXG1E9WiAWaj3YEKD6hpXK\"]},\"Finance-for-big-data/accesscontrol/Distributor.sol\":{\"keccak256\":\"0xbf141b596c1b5025d01130d23339461809a8900ca79f3a32ceceb2b38e49b044\",\"urls\":[\"bzz-raw://1e5d2023d6ea862e63f07eb16e1783d6f3890c6d84640795725729036bd4efa5\",\"dweb:/ipfs/QmZxFNq6kV3SJtA5L8EYKr7mD8eMV7MUUFfR4vGtgQmMTS\"]},\"Finance-for-big-data/accesscontrol/Farmer.sol\":{\"keccak256\":\"0x25bf18b7d0523618e24c7aafb0902cc821b34b2513d269a527998af22eef0e91\",\"urls\":[\"bzz-raw://c12ea0c7d8ed6f4cb437b8a7d57ed19515e7c68f6881f16351187bb5693b80db\",\"dweb:/ipfs/Qmc9k8PubXGFhyiPtxqyduk3QvYTDGZjPZF6bt4f6NpKYa\"]},\"Finance-for-big-data/accesscontrol/Manufacturer.sol\":{\"keccak256\":\"0xf844b7f9d4e240700c37c15ab0450402f781e640d4e96ee2fbcac6417378076a\",\"urls\":[\"bzz-raw://830bd4209bf250eb1e21e79ccfe0fdf3be529d90bac02e341eab70d51928ee61\",\"dweb:/ipfs/QmaBSrFpvgyVhkyQE32tTBKFSpafUXEcZtB2VVdHhMgdMh\"]},\"Finance-for-big-data/accesscontrol/Ownable.sol\":{\"keccak256\":\"0xa9e8434199907a35031be01e5400c65634165325879f8c914d62e2c167c94bc6\",\"urls\":[\"bzz-raw://46775e0b604487bd7210a2841d2cf028078e2f1a17a4c83f9d3882127f77d255\",\"dweb:/ipfs/QmWdAZeaCoszmfg5KTnTWE6uojR7aFTFgTXHC7Sp43o9nu\"]},\"Finance-for-big-data/accesscontrol/Retailer.sol\":{\"keccak256\":\"0xc9025d118029ba448920eb71df71fc4794806db0b59fa2399640145d056c8958\",\"urls\":[\"bzz-raw://dae3cbac68e60a043a7d0ccc6716a6398b93a61df3396ef47df006fc828d843e\",\"dweb:/ipfs/QmetLnThWaui5VT5WJXW84FnGf3Ajq7feuoEBbKuxE4frr\"]},\"Finance-for-big-data/accesscontrol/Roles.sol\":{\"keccak256\":\"0xc6e4f3d09c6789f02c75b7d601e36933d28c252d8eb58d58fe87eedbc2189e14\",\"urls\":[\"bzz-raw://a24bce702808e170f56047502e24fe21b673358f84ca68d94e7852cfe29f34ad\",\"dweb:/ipfs/QmSD9791MoLQySxXxJT59fJH55T1YAsop1Pb49sx3wjrKY\"]},\"Finance-for-big-data/supplychain/chain.sol\":{\"keccak256\":\"0x041610ff8b4c75420a3303fc8f497767a15f07468b0431a6a44d93cb1bc0e1ea\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://5859b7d22685950a191effbff9c0de667f0c1d9ea6e82dd32df96ae80517ec6b\",\"dweb:/ipfs/QmVUxDppq7EGvZrrwkFa53asMgU2wwFxXPYL6oSuGGuR7s\"]}},\"version\":1}",
                 "userdoc": {
                     "kind": "user",
                     "methods": {},
@@ -1995,12 +1995,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Consumer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol",
+                "file": "Finance-for-big-data/accesscontrol/Consumer.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2008,12 +2008,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Distributor.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol",
+                "file": "Finance-for-big-data/accesscontrol/Distributor.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2021,12 +2021,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Farmer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol",
+                "file": "Finance-for-big-data/accesscontrol/Farmer.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2034,12 +2034,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Manufacturer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol",
+                "file": "Finance-for-big-data/accesscontrol/Manufacturer.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2047,12 +2047,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Ownable.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol",
+                "file": "Finance-for-big-data/accesscontrol/Ownable.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2060,12 +2060,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Retailer.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol",
+                "file": "Finance-for-big-data/accesscontrol/Retailer.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2073,12 +2073,12 @@
         {
             "component": "general",
             "errorCode": "1878",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Roles.sol: Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n",
             "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
             "severity": "warning",
             "sourceLocation": {
                 "end": -1,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                "file": "Finance-for-big-data/accesscontrol/Roles.sol",
                 "start": -1
             },
             "type": "Warning"
@@ -2086,21 +2086,21 @@
         {
             "component": "general",
             "errorCode": "2018",
-            "formattedMessage": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol:24:5: Warning: Function state mutability can be restricted to view\n    function remove(Role storage role, address account) internal {\n    ^ (Relevant source part starts here and spans across multiple lines).\n",
+            "formattedMessage": "Finance-for-big-data/accesscontrol/Roles.sol:24:5: Warning: Function state mutability can be restricted to view\n    function remove(Role storage role, address account) internal {\n    ^ (Relevant source part starts here and spans across multiple lines).\n",
             "message": "Function state mutability can be restricted to view",
             "severity": "warning",
             "sourceLocation": {
                 "end": 942,
-                "file": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                "file": "Finance-for-big-data/accesscontrol/Roles.sol",
                 "start": 718
             },
             "type": "Warning"
         }
     ],
     "sources": {
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol": {
+        "Finance-for-big-data/accesscontrol/Consumer.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Consumer.sol",
                 "exportedSymbols": {
                     "ConsumerRole": [
                         103
@@ -2122,7 +2122,7 @@
                         "src": "0:25:0"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                         "file": "./Roles.sol",
                         "id": 2,
                         "nodeType": "ImportDirective",
@@ -3354,9 +3354,9 @@
             },
             "id": 0
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol": {
+        "Finance-for-big-data/accesscontrol/Distributor.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Distributor.sol",
                 "exportedSymbols": {
                     "DistributorRole": [
                         206
@@ -3378,7 +3378,7 @@
                         "src": "0:25:1"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                         "file": "./Roles.sol",
                         "id": 106,
                         "nodeType": "ImportDirective",
@@ -4596,9 +4596,9 @@
             },
             "id": 1
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol": {
+        "Finance-for-big-data/accesscontrol/Farmer.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Farmer.sol",
                 "exportedSymbols": {
                     "Farmer": [
                         309
@@ -4620,7 +4620,7 @@
                         "src": "0:25:2"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                         "file": "./Roles.sol",
                         "id": 209,
                         "nodeType": "ImportDirective",
@@ -5838,9 +5838,9 @@
             },
             "id": 2
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol": {
+        "Finance-for-big-data/accesscontrol/Manufacturer.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Manufacturer.sol",
                 "exportedSymbols": {
                     "ManufacturerRole": [
                         413
@@ -5862,7 +5862,7 @@
                         "src": "0:25:3"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                         "file": "./Roles.sol",
                         "id": 312,
                         "nodeType": "ImportDirective",
@@ -7094,9 +7094,9 @@
             },
             "id": 3
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol": {
+        "Finance-for-big-data/accesscontrol/Ownable.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Ownable.sol",
                 "exportedSymbols": {
                     "Ownable": [
                         526
@@ -8528,9 +8528,9 @@
             },
             "id": 4
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol": {
+        "Finance-for-big-data/accesscontrol/Retailer.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Retailer.sol",
                 "exportedSymbols": {
                     "RetailerRole": [
                         629
@@ -8552,7 +8552,7 @@
                         "src": "0:25:5"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                         "file": "./Roles.sol",
                         "id": 529,
                         "nodeType": "ImportDirective",
@@ -9770,9 +9770,9 @@
             },
             "id": 5
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol": {
+        "Finance-for-big-data/accesscontrol/Roles.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Roles.sol",
+                "absolutePath": "Finance-for-big-data/accesscontrol/Roles.sol",
                 "exportedSymbols": {
                     "Roles": [
                         699
@@ -10679,9 +10679,9 @@
             },
             "id": 6
         },
-        "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/supplychain/chain.sol": {
+        "Finance-for-big-data/supplychain/chain.sol": {
             "ast": {
-                "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/supplychain/chain.sol",
+                "absolutePath": "Finance-for-big-data/supplychain/chain.sol",
                 "exportedSymbols": {
                     "SupplyChain": [
                         2290
@@ -10703,7 +10703,7 @@
                         "src": "40:25:7"
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Ownable.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Ownable.sol",
                         "file": "../accesscontrol/Ownable.sol",
                         "id": 702,
                         "nodeType": "ImportDirective",
@@ -10714,7 +10714,7 @@
                         "unitAlias": ""
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Farmer.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Farmer.sol",
                         "file": "../accesscontrol/Farmer.sol",
                         "id": 703,
                         "nodeType": "ImportDirective",
@@ -10725,7 +10725,7 @@
                         "unitAlias": ""
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Distributor.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Distributor.sol",
                         "file": "../accesscontrol/Distributor.sol",
                         "id": 704,
                         "nodeType": "ImportDirective",
@@ -10736,7 +10736,7 @@
                         "unitAlias": ""
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Manufacturer.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Manufacturer.sol",
                         "file": "../accesscontrol/Manufacturer.sol",
                         "id": 705,
                         "nodeType": "ImportDirective",
@@ -10747,7 +10747,7 @@
                         "unitAlias": ""
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Retailer.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Retailer.sol",
                         "file": "../accesscontrol/Retailer.sol",
                         "id": 706,
                         "nodeType": "ImportDirective",
@@ -10758,7 +10758,7 @@
                         "unitAlias": ""
                     },
                     {
-                        "absolutePath": "/Users/alessiomassini/Desktop/CacaoSupplyChain/Finance-for-big-data/accesscontrol/Consumer.sol",
+                        "absolutePath": "Finance-for-big-data/accesscontrol/Consumer.sol",
                         "file": "../accesscontrol/Consumer.sol",
                         "id": 707,
                         "nodeType": "ImportDirective",
