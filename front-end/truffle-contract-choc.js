@@ -107,6 +107,7 @@ var contract = (function(module) {
         return log != null;
       });
     },
+
     promisifyFunction: function(fn, C) {
       var self = this;
       return function() {
@@ -138,6 +139,7 @@ var contract = (function(module) {
         });
       };
     },
+
     synchronizeFunction: function(fn, instance, C) {
       var self = this;
       return function() {
@@ -192,6 +194,7 @@ var contract = (function(module) {
         });
       };
     },
+
     merge: function() {
       var merged = {};
       var args = Array.prototype.slice.call(arguments);
@@ -205,9 +208,9 @@ var contract = (function(module) {
           merged[key] = value;
         }
       }
-
       return merged;
     },
+
     parallel: function (arr, callback) {
       callback = callback || function () {};
       if (!arr.length) {
@@ -230,6 +233,7 @@ var contract = (function(module) {
         });
       });
     },
+
     bootstrap: function(fn) {
       // Add our static methods
       Object.keys(fn._static_methods).forEach(function(key) {
@@ -248,6 +252,7 @@ var contract = (function(module) {
   // Accepts a contract object created with web3.eth.contract.
   // Optionally, if called without `new`, accepts a network_id and will
   // create a new version of the contract abstraction with that network_id set.
+  
   function Contract(contract) {
     var self = this;
     var constructor = this.constructor;

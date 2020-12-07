@@ -44,10 +44,10 @@ App = {
         }
         // If no injected web3 instance is detected, fall back to Ganache
         else {
-            App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
+            App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545'); // HOST ?
         }
-        //App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
-        //App.getMetaskAccountID();
+        //App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545'); // DELETE OR OUTCOMMENT ?
+        //App.getMetaskAccountID(); // DELETE OR OUTCOMMENT ?
         return App.initSupplyChain();
     },
 
@@ -88,7 +88,7 @@ App = {
 
     initSupplyChain: function () {
         /// Source the truffle compiled smart contracts
-        var jsonSupplyChain='../../build/contracts/SupplyChain.json';
+        var jsonSupplyChain='../../build/contracts/SupplyChain.json'; // we need to create the contracts as json files?
         //var json
         /// JSONfy the smart contracts
         $.getJSON(jsonSupplyChain, function(data) {
@@ -231,7 +231,7 @@ App = {
         event.preventDefault();
         var processId = parseInt($(event.target).data('id'));
         var resultTag = document.getElementById("isDistributor");
-        App.contracts.SupplyChain.deployed().then( async function(instance) {
+        App.contracts.SupplyChain.deployed().then(async function(instance) {
             resultTag.className = " loader";
             var checkRole = await instance.isDistributor(App.DistributorID);
             if(checkRole == false){
@@ -458,11 +458,10 @@ App = {
       event.preventDefault();
       var processId = parseInt($(event.target).data('id'));
       var upc = document.getElementById("processupc").value;
-      var sliceNumber = document.getElementById("processnumber").value;
       var resultTag = document.getElementById("pibd");
       App.contracts.SupplyChain.deployed().then(function(instance) {
           resultTag.className = " loader";
-          return instance.processedItemByDistributor(upc,sliceNumber, {from: App.DistributorID});
+          return instance.processedItemByDistributor(upc, {from: App.DistributorID});
       }).then(function(result) {
         resultTag.className = " font";
         resultTag.innerText = "  Tx Hash: "+result.tx;
@@ -584,11 +583,10 @@ App = {
       event.preventDefault();
       var processId = parseInt($(event.target).data('id'));
       var upc = document.getElementById("processupc").value;
-      var sliceNumber = document.getElementById("processnumber").value;
       var resultTag = document.getElementById("pibm");
       App.contracts.SupplyChain.deployed().then(function(instance) {
           resultTag.className = " loader";
-          return instance.processedItemByManufacturer(upc,sliceNumber, {from: App.ManufacturerID});
+          return instance.processedItemByManufacturer(upc, {from: App.ManufacturerID});
       }).then(function(result) {
         resultTag.className = " font";
         resultTag.innerText = "  Tx Hash: "+result.tx;
@@ -597,7 +595,6 @@ App = {
           resultTag.innerText = "  Error: "+err.message;
       });
     },
-    
     
     //18
     packageItemByManufacturer: function (event) {
@@ -778,9 +775,9 @@ App = {
           "Product Date: "+myDate)
         }).catch(function(err) {
             console.log(err.message);
-        });
-    },
-
+          });
+      },
+        
     //26
     fetchItemBufferTwo: function () {
         event.preventDefault();
