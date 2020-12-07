@@ -1,5 +1,10 @@
 READ ME
 
+## Main:
+This project is part of the Finance with Big Data course at Bocconi University. In this repo, we develop a Solidity-based supply chain contract, which is focused on chocolate production. 
+
+
+
 ## Contract list:
 
 ## Deployment
