@@ -12,6 +12,11 @@ We allow for the following participants on our chain:
 
 Access control is immensely important on the blockchain, as we want to control who is allowed to do what in a supply chain. Hence, we followed OpenZeppelin's guidance (https://docs.openzeppelin.com/contracts/2.x/access-control) and implmented a Role-Based Access Control system. These can be found in our accesscontrol folder.
 
+For each of the roles (consumer below as example), we define the following functions:
+- isConsumer: checks if the address has the role consumer
+- addConsumer: adds current address to consumer role
+- renounceConsumer: renounces current role as consumer
+
 
 ## Contract list:
 
