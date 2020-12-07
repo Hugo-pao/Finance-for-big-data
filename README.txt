@@ -10,6 +10,7 @@ We allow for the following participants on our chain:
 - Retailer
 - Consumer
 
+Access control is immensely important on the blockchain, as we want to control who is allowed to do what in a supply chain. Hence, we followed OpenZeppelin's guidance (https://docs.openzeppelin.com/contracts/2.x/access-control) and implmented a Role-Based Access Control system. These can be found in our accesscontrol folder.
 
 
 ## Contract list:
