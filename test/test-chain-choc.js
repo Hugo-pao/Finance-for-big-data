@@ -9,9 +9,9 @@ contract('chain', function(accounts) {
     var upc = 1
     var ownerID = accounts[0]
     const originFarmerID = accounts[1]
-    const originFarmName = "Fernando Rodriguez"
+    const originFarmName = "Rodriguez Cacao Farm"
     var productID = upc + sku
-    const productPrice = web3.utils.toWei('1', "ether")
+    const productPrice = web3.utils.toWei('1', "ether") // toWei correct?
     var itemState = 0
     const distributorID = accounts[2]
     const manufacturerID = accounts[3]
