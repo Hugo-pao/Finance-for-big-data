@@ -1,5 +1,8 @@
 READ ME
 
+## Contract list:
+
+## Deployment
 First time use:
 1. run Ganache
 2. cd into project root directory
@@ -14,4 +17,4 @@ After that (from project directory):
 5. let accounts = await web3.eth.getAccounts()
 6. instance.contractName(args)
 
-Contract list:
+## Front-end
