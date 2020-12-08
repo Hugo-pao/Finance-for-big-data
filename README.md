@@ -62,8 +62,12 @@ instance.addRetailer(accounts[4])
 instance.addConsumer(accounts[5])
 ```
 
-
-
+As explained above, the chain allows to check or revoke access. 
+For example, if you want to check if account 5 is a farmer, run: 
+```
+instance.isFarmer(accounts[5])
+```
+As expected, the output is false allowing for a functioning access control system.
 
 
 ## Front-end
