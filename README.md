@@ -40,7 +40,7 @@ We add the farmer to the chain.
 ```
 instance.addFarmer(accounts[1])
 ```
-## The Farmer produces chocolate
+## Farmer produces chocolate
 Then, the farmer is allowed to create chocolate via the *produceItemByFarmer* function.
 The function takess three inputs:
 - UPC: the universal product code, which will continue through the chain
@@ -50,7 +50,7 @@ The function takess three inputs:
 instance.produceItemByFarmer(42,"Loving Choco",5,{from: accounts[0]})
 ```
 Note that the function *produceItemByFarmer* can only be executed as a farmer. The access control implemented under the hood doesnt allow someone else to call this function.
-## Sells chocolate
+## Farmer sells chocolate
 Only the farmer is allowed to access this function. Further, the UPC need to be the same as the UPC produced above. 
 The function takes two parameters:
 - UPC
@@ -58,11 +58,17 @@ The function takes two parameters:
 ```
 instance.sellItemByFarmer(42, 7,{from: accounts[0]})
 ```
-
-**Distributor**
+## Distributor purchases chocolate
+Now, we add the distributor role
 ```
 instance.addDistributor(accounts[2])
 ```
+Let's check who is the current owner via: ```instance.ownerLookup()``` and check with ```instance.isDistributor``` that the correct account has access.
+Given this is true, we allow the distributor to buy chocolate via ```purchaseItemByDistributor```. The function takes the same UPC as an input as our chain dicates. The distributor now sends currency to obtain the chcocolate. For this, the msg.value needs to exceed the price set by the farmer. We check this via the *paidEnough* modifier.
+```
+instance.purchaseItemByDistributor(42, {value: 20000})
+```
+
 **Manufacturer**
 ```
 instance.addManufacturer(accounts[3])
