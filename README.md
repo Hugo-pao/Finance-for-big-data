@@ -19,6 +19,8 @@ For each of the roles (consumer below as example), we define the following funct
 - addConsumer: adds current address to consumer role
 - renounceConsumer: renounces current role as consumer
 
+# Steps in Supply Chain
+
 # Supply Chain Deployment
 First time use:
 ```
@@ -78,14 +80,10 @@ By now, the game remains the same: Only distributor can execute, UPC must fit.
 ```
 instance.receivedItemByDistributor(42)
 ```
-## Distributor processes the chocolate
-The distributor processes the chocolate. The function takes the UPC as input.
+## Distributor processes & packages the chocolate
+The functions takes the UPC as input.
 ```
 instance.processedItemByDistributor(42)
-```
-## Distributor packages the chocolate
-The distributor packages the chocolate. The function takes the UPC as input.
-```
 instance.packageItemByDistributor(42)
 ```
 ## Distributor sells packaged chocolate to manufacturer
@@ -94,17 +92,50 @@ The function takes two arguments. The UPC and the price. Before, the distributor
 instance.sellItemByDistributor(42, 30000)
 ```
 ## Manufacturer purchases chocolate
-Let's add a manufacturer into the mix via ```instance.addManufacturer(accounts[3])```. We, again, can check the ownership and the right permissions by ```instance.ownerLookup()``` and ```instance.isManufacturer()``` 
+Let's add a manufacturer into the mix via ```instance.addManufacturer(accounts[3])```. We, again, can check the ownership and the right permissions by ```instance.ownerLookup()``` and ```instance.isManufacturer()```. Afterwards, we allow the manufacturer to purchase the packaged chocolate. The value cannot be below the distributor's value
+```
+instance.purchaseItemByManufacturer(42, {value: 30000})
+```
+## Distributor ships packaged chocolate
+```
+instance.shippedItemByDistributor(42)
+```
+## Manufacturer receives, processes & packages chocolate
+```
+instance.receivedItemByManufacturer(42)
+instance.processedItemByManufacturer(42)
+instance.packageItemByManufacturer(42)
+```
+As always, the right permissioned must be followed + the UPC is the argument to the functions.
+## Manufacturer sells the chocolate
+The manufacturer can set the price for the sold chocolate here. Expectedly, the manufacturer wants to make a margin:
+```
+instance.sellItemByManufacturer(42, 40000)
+```
+## Retailer purchasess the chocolate
+This function can only be executed as a retailer. Hence, we need to add a retailer to the chain via ```instance.addRetailer(accounts[4])```. The ownership can be checked in the similar way as mentioned above. Now the retailer can send currency to buy the chocolate (must exceed price set by manufacturer).
+```
+instance.purchaseItemByRetailer(42, {value: 40000})
+```
+## Manufacturer ships the ready chocolate
+The function takes the UPC as input.
+```
+instance.shippedItemByManufacturer(42)
+```
+## Retailer receives and sells chocolate
+The functions takes the UPC as input. For the selling process, the retailer can name its price as a second argument
+```
+instance.receivedItemByRetailer(42)
+instance.sellItemByRetailer(42, 50000)
+```
+## Last but not least: Consumer buys chocolate
+But first, let's add the consumer to the chain via ```instance.addConsumer(accounts[5])```
+Now, finally, we allow the consumer to purchase. By requiring the UPC at this stage we make sure that the entire value chain is covered and the chocolate can be tracked from the consumer to the farmer
+```
+instance.purchaseItemByConsumer(42, {value: 60000})
+```
 
 
-**Retailer**
-```
-instance.addRetailer(accounts[4])
-```
-**Consumer**
-```
-instance.addConsumer(accounts[5])
-```
 
 As explained above, the chain allows to check or revoke access. 
 For example, if you want to check if account 5 is a farmer, run: 
