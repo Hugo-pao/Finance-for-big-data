@@ -39,11 +39,12 @@ let accounts = await web3.eth.getAccounts()
 ```
 ## Run through the chain
 **Farmer**
+
 We add the Farmer to the chain.
 ```
 instance.addFarmer(accounts[1])
 ```
-Then, the Farmer is allowed to create chocolate via the *produceItemByFarmer* function.
+Then, the farmer is allowed to create chocolate via the *produceItemByFarmer* function.
 The function takess three inputs:
 - UPC: the universal product code, which will continue through the chain
 - Farmer's Name
