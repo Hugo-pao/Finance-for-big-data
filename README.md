@@ -68,6 +68,32 @@ Given this is true, we allow the distributor to buy chocolate via ```purchaseIte
 ```
 instance.purchaseItemByDistributor(42, {value: 20000})
 ```
+## Farmer ships chocolate
+After the farmer receives the funds, the farmer ships the chocolate. Again, the UPC must fit and the function can only be executed from a farmer.
+```
+instance.shippedItemByFarmer(42)
+```
+## Distributor receives chocolate
+By now, the game remains the same: Only distributor can execute, UPC must fit.
+```
+instance.receivedItemByDistributor(42)
+```
+## Distributor processes the chocolate
+The distributor processes the chocolate. The function takes the UPC as input.
+```
+instance.processedItemByDistributor(42)
+```
+## Distributor packages the chocolate
+The distributor packages the chocolate. The function takes the UPC as input.
+```
+instance.packageItemByDistributor(42)
+```
+## 
+
+
+
+
+
 
 **Manufacturer**
 ```
