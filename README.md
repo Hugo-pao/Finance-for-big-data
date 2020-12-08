@@ -88,17 +88,15 @@ The distributor packages the chocolate. The function takes the UPC as input.
 ```
 instance.packageItemByDistributor(42)
 ```
-## 
-
-
-
-
-
-
-**Manufacturer**
+## Distributor sells packaged chocolate to manufacturer
+The function takes two arguments. The UPC and the price. Before, the distributor bought the raw materials for 20000, so naturally, the distributor wants to be compensated for his efforts.
 ```
-instance.addManufacturer(accounts[3])
+instance.sellItemByDistributor(42, 30000)
 ```
+## Manufacturer purchases chocolate
+Let's add a manufacturer into the mix via ```instance.addManufacturer(accounts[3])```. We, again, can check the ownership and the right permissions by ```instance.ownerLookup()``` and ```instance.isManufacturer()``` 
+
+
 **Retailer**
 ```
 instance.addRetailer(accounts[4])
