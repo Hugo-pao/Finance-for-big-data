@@ -38,6 +38,9 @@ truffle console
 let instance = await SupplyChain.deployed()
 let accounts = await web3.eth.getAccounts()
 ```
+
+To get an overview of all of our methods, consider ```instance.methods```
+
 ## Farmer added
 We add the farmer to the chain.
 ```
