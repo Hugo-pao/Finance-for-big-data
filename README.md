@@ -40,6 +40,7 @@ let accounts = await web3.eth.getAccounts()
 ## Run through the chain
 ### Access Control
 As an example, we give the following roles to the following accounts.
+
 **Farmer**
 ```
 instance.addFarmer(accounts[1])
