@@ -47,19 +47,19 @@ instance.addFarmer(accounts[1])
 ```
 **Distributor**
 ```
-instance.addFarmer(accounts[2])
+instance.addDistributor(accounts[2])
 ```
 **Manufacturer**
 ```
-instance.addFarmer(accounts[3])
+instance.addManufacturer(accounts[3])
 ```
 **Retailer**
 ```
-instance.addFarmer(accounts[4])
+instance.addRetailer(accounts[4])
 ```
 **Consumer**
 ```
-instance.addFarmer(accounts[5])
+instance.addConsumer(accounts[5])
 ```
 
 
