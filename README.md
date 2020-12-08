@@ -38,12 +38,30 @@ let instance = await SupplyChain.deployed()
 let accounts = await web3.eth.getAccounts()
 ```
 ## Run through the chain
-### Farmer
-Add a Farmer's account to the chain. As explained above, only the farmer is allowed to call c
-Here, we use accounts[1] as an example. 
+### Access Control
+As an example, we give the following roles to the following accounts.
+**Farmer**
 ```
 instance.addFarmer(accounts[1])
 ```
+**Distributor**
+```
+instance.addFarmer(accounts[2])
+```
+**Manufacturer**
+```
+instance.addFarmer(accounts[3])
+```
+**Retailer**
+```
+instance.addFarmer(accounts[4])
+```
+**Consumer**
+```
+instance.addFarmer(accounts[5])
+```
+
+
 
 
 
