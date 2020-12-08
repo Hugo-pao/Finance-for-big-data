@@ -39,8 +39,12 @@ let accounts = await web3.eth.getAccounts()
 ```
 ## Run through the chain
 ### Farmer
-Add a Farmer's account to the chain.
+Add a Farmer's account to the chain. As explained above, only the farmer is allowed to call c
+Here, we use accounts[1] as an example. 
+```
+instance.addFarmer(accounts[1])
+```
 
-6. instance.contractName(args)
+
 
 ## Front-end
