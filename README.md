@@ -138,10 +138,13 @@ Now, finally, we allow the consumer to purchase. By requiring the UPC at this st
 ```
 instance.purchaseItemByConsumer(42, {value: 60000})
 ```
-
-
-
-
-
-
 # Front-end
+## Front-end functions
+We invision that our front-end app has access to three functions. All of these functions only depend on the UPC, which we imagine to be accessed via a QR code.
+```
+instance.fetchItemBufferOne(42)
+instance.fetchItemBufferTwo(42)
+instance.fetchitemHistory(42)
+```
+The first *fetchItemBufferOne* retrieves information about the farmer such as address and name. Second, the function *fetchItemBufferTwo* gives information about the steps between the farmer and consumer, such as the address of the distributor or manufacturer. Lastly, *fetchitemHistory* returns the blocks that have been created through this supply chain.
+
