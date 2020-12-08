@@ -20,6 +20,7 @@ For each of the roles (consumer below as example), we define the following funct
 - renounceConsumer: renounces current role as consumer
 
 # Steps in Supply Chain
+Given the steps in the supply chain, we have not only implemented a strict Role-Based Access Control system, but also developed 19 stages in the chain (see below for detail) that the product must go through. Using modifiers, the code requires that no step is skipped. Otherwise the code will break. Below, in the deployment, we walk through a concrete Ganache example of all of those steps.
 
 # Supply Chain Deployment
 First time use:
@@ -137,19 +138,7 @@ instance.purchaseItemByConsumer(42, {value: 60000})
 
 
 
-As explained above, the chain allows to check or revoke access. 
-For example, if you want to check if account 5 is a farmer, run: 
-```
-instance.isFarmer(accounts[5])
-```
-As expected, the output is false allowing for a functioning access control system.
 
-### Step 1: The Farmer produces chocolate
-In order to record this step, the farmer runs: 
-
-```
-instance.isFarmer(accounts[5])
-```
 
 
 # Front-end
