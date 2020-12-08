@@ -1,6 +1,6 @@
 # Finance for Big Data | Bocconi University
 
-## Project Outline
+# Project Outline
 This project is part of the Finance with Big Data course at Bocconi University. In this repo, we develop a Solidity-based supply chain contract, which is focused on chocolate production. 
 
 We allow for the following participants on our chain: 
@@ -10,7 +10,7 @@ We allow for the following participants on our chain:
 - Retailer
 - Consumer
 
-## Access Control
+# Access Control
 
 Access control is immensely important on the blockchain, as we want to control who is allowed to do what in a supply chain. Hence, we followed OpenZeppelin's guidance (https://docs.openzeppelin.com/contracts/2.x/access-control) and implmented a Role-Based Access Control system. These can be found in our accesscontrol folder.
 
@@ -19,9 +19,7 @@ For each of the roles (consumer below as example), we define the following funct
 - addConsumer: adds current address to consumer role
 - renounceConsumer: renounces current role as consumer
 
-## Supply Chain
-
-## Deployment
+# Supply Chain Deployment
 First time use:
 ```
 run Ganache
@@ -37,13 +35,13 @@ truffle console
 let instance = await SupplyChain.deployed()
 let accounts = await web3.eth.getAccounts()
 ```
-## Run through the chain
-###Farmer added
+# Run through the chain
+## Farmer added
 We add the farmer to the chain.
 ```
 instance.addFarmer(accounts[1])
 ```
-###Produce Chocolate
+## Produce Chocolate
 Then, the farmer is allowed to create chocolate via the *produceItemByFarmer* function.
 The function takess three inputs:
 - UPC: the universal product code, which will continue through the chain
@@ -53,7 +51,7 @@ The function takess three inputs:
 instance.produceItemByFarmer(42,"Loving Choco",5,{from: accounts[0]})
 ```
 Note that the function *produceItemByFarmer* can only be executed as a farmer. The access control implemented under the hood doesnt allow someone else to call this function.
-###Sell Chocolate
+## Sell Chocolate
 
 
 **Distributor**
@@ -88,4 +86,4 @@ instance.isFarmer(accounts[5])
 ```
 
 
-## Front-end
+# Front-end
