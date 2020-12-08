@@ -69,5 +69,12 @@ instance.isFarmer(accounts[5])
 ```
 As expected, the output is false allowing for a functioning access control system.
 
+### Step 1: The Farmer produces chocolate
+In order to record this step, the farmer runs: 
+
+```
+instance.isFarmer(accounts[5])
+```
+
 
 ## Front-end
