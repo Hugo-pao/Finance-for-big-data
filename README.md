@@ -74,6 +74,8 @@ Given this is true, we allow the distributor to buy chocolate via ```purchaseIte
 ```
 instance.purchaseItemByDistributor(42, {value: 20000})
 ```
+Now, here you might think that there is a problem. The distributor payed 20000 where the farmer only sets a price at 7. We've got you covered. The modifier *checkValue* returns all the exceeding funds.
+
 ## Farmer ships chocolate
 After the farmer receives the funds, the farmer ships the chocolate. Again, the UPC must fit and the function can only be executed from a farmer.
 ```
@@ -91,7 +93,7 @@ instance.processedItemByDistributor(42)
 instance.packageItemByDistributor(42)
 ```
 ## Distributor sells packaged chocolate to manufacturer
-The function takes two arguments. The UPC and the price. Before, the distributor bought the raw materials for 20000, so naturally, the distributor wants to be compensated for his efforts.
+The function takes two arguments. The UPC and the price. The distributor makes quite the large margin :) 
 ```
 instance.sellItemByDistributor(42, 30000)
 ```
