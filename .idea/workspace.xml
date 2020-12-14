@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e413bc2-cf8e-4c45-aeb7-abea671ad0eb" name="Default Changelist" comment="Rename project-logs.md">
-      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truffle.js" beforeDir="false" />
+    <list default="true" id="2e413bc2-cf8e-4c45-aeb7-abea671ad0eb" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/business-case.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/SupplyChain.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/SupplyChain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truffle-config.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kampw\OneDrive\Bocconi\2020-2021\Finance With Big Data\Finance-for-big-data" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -70,7 +80,28 @@
       <option name="project" value="LOCAL" />
       <updated>1607363919876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1607369084054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607369084054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <created>1607369093292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607369093292</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update">
+      <created>1607369247655</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607369247655</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,28 +120,7 @@
     <MESSAGE value="Remove unnecessary files/folders" />
     <MESSAGE value="Add README.txt" />
     <MESSAGE value="Rename project-logs.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename project-logs.md" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607369037003">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607369037003" />
-    <state x="591" y="281" key="MultipleFileMergeDialog" timestamp="1607363435158">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="591" y="281" key="MultipleFileMergeDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607363435158" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607363923361">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607363923361" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607363624699">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607363624699" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1607363604081">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1607363604081" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
