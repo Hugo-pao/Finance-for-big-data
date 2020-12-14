@@ -17,7 +17,7 @@ This project is part of the Finance with Big Data course at Bocconi University.
 In this repo, we develop a Solidity-based supply chain contract, which is focused on 
 chocolate production. For project progress notes, see `project-logs.md`.
 
-We allow for the following participants on our supply chain: 
+We allow for the following participants in our supply chain: 
 - Farmer
 - Distributor
 - Manufacturer
