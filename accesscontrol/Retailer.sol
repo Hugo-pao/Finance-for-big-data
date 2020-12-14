@@ -27,7 +27,7 @@ contract RetailerRole {
   }
 
   // Define a function 'isRetailer' to check this role
-  function isRetailer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
+  function isRetailer(address account) public view returns (bool) {
     return retailers.has(account);
   }
 
