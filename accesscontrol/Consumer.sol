@@ -27,7 +27,7 @@ contract ConsumerRole{
   }
 
   // Define a function 'isConsumer' to check this role
-  function isConsumer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
+  function isConsumer(address account) public view returns (bool) {
     return consumers.has(account);
   }
 
