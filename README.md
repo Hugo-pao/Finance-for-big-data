@@ -1,4 +1,16 @@
-# Finance for Big Data | Bocconi University
+# Finance for Big Data | Bocconi University | Final project
+
+![logo](logo.png)
+ 
+By Leonie Intat (3106099), 
+Konrad Eilers (3100542), 
+Anthonie Wali Kamp (3109738), 
+Alessio Massini (3040393), 
+Valentina Alto (3016040), 
+and Hugo Paolini (3114092).
+
+
+
 
 ## Project Outline
 This project is part of the Finance with Big Data course at Bocconi University. 
@@ -26,26 +38,39 @@ For each of the roles (consumer below as example), we define the following funct
 - renounceConsumer: renounces current role as consumer
 
 ## Steps in Supply Chain
-Given the steps in the supply chain, we have not only implemented a strict Role-Based Access Control system, but also developed 19 stages in the chain (see below for detail) that the product must go through. Using modifiers, the code requires that no step is skipped. Otherwise the code will break. Below, in the deployment, we walk through a concrete Ganache example of all of those steps.
+Given the steps in the supply chain, we have not only implemented a 
+strict Role-Based Access Control system, but also developed 19 stages in the 
+chain (see below for detail) that the product must go through. 
+Using modifiers, the code requires that no step is skipped. 
+Otherwise, the code will break. Below, in the deployment, we walk 
+through a concrete Ganache example of all of those steps.
 
 ## Supply Chain Deployment
+
+All commands and functions should be run in the **command line**.
+
 First time use:
+
+1. run command line
+2. cd into project root directory
+3. run commands:
 ```
-run Ganache
-cd into project root directory
 npm install -g truffle 
 truffle init (may not be necessary)
 ```
 After that (from project directory):
+
+1. run Ganache
+2. run command line
+3. run commands:
 ```
-run Ganache
-truffle migrate (deploys contracts)
+truffle migrate
 truffle console
 let instance = await SupplyChain.deployed()
 let accounts = await web3.eth.getAccounts()
 ```
 
-To get an overview of all of our methods, consider ```instance.methods```
+To get an overview of all of our methods, consider ```instance.methods```.
 
 ### Farmer added
 We add the farmer to the chain.

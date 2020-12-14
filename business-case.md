@@ -35,7 +35,9 @@ at all stages of the supply chain. Finally, this innovation could boost the mark
 their willingness-to-pay for more sustainable and fair products.
 
 In order to demonstrate the potential impact of this technology, we have constructed a blockchain for the 
-chocolate supply chain.
+chocolate supply chain: 
+
+![logo](logo.png)
 
 ---
 
