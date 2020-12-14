@@ -26,7 +26,7 @@ contract Farmer{
     }
 
     // Define a function 'isFarmer' to check this role
-    function isFarmer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
+    function isFarmer(address account) public view returns (bool) {
         return farmers.has(account);
     }
 
