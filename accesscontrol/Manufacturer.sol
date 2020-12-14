@@ -27,7 +27,7 @@ contract ManufacturerRole{
   }
 
   // Define a function 'isManufacturer' to check this role
-  function isManufacturer(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
+  function isManufacturer(address account) public view returns (bool) {
     return manufacturers.has(account);
   }
 
