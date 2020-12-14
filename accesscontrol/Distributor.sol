@@ -25,7 +25,7 @@ contract DistributorRole{
   }
 
   // Define a function 'isDistributor' to check this role
-  function isDistributor(address account) public view returns (bool) { // What's the meaning of public func calling the int ones?
+  function isDistributor(address account) public view returns (bool) {
     return distributors.has(account);
   }
 
