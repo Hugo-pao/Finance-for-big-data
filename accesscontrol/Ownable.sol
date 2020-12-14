@@ -17,7 +17,7 @@ contract Ownable{
     }
 
     // Look up the address
-    function ownerLookup() public view returns (address) { // What's the meaning of public func calling the int ones?
+    function ownerLookup() public view returns (address) {
         return origOwner;
     }
 
