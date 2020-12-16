@@ -186,5 +186,7 @@ You can click through the prototype of the application here: https://leonieintat
 
 ## Team responsibilities
 Solidity: Konrad & Alessio
+
 Market Research and Business Application: Valentina & Hugo
+
 Deployment and Front-end: Wali & Leonie 
