@@ -9,9 +9,6 @@ Alessio Massini (3040393),
 Valentina Alto (3016040), 
 and Hugo Paolini (3114092).
 
-
-
-
 ## Project Outline
 This project is part of the Finance with Big Data course at Bocconi University. 
 In this repo, we develop a Solidity-based supply chain contract, which is focused on 
@@ -51,9 +48,10 @@ All commands and functions should be run in the **command line**.
 
 First time use:
 
-1. run command line
-2. cd into project root directory
-3. run commands:
+1. install node.js (https://www.npmjs.com/get-npm)
+2. run command line
+3. cd into project root directory
+4. run commands:
 ```
 npm install -g truffle 
 truffle init (may not be necessary)
