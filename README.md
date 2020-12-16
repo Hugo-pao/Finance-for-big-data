@@ -179,6 +179,7 @@ instance.fetchitemHistory(42)
 ```
 The first *fetchItemBufferOne* retrieves information about the farmer such as address and name. Second, the function *fetchItemBufferTwo* gives information about the steps between the farmer and consumer, such as the address of the distributor or manufacturer. Lastly, *fetchitemHistory* returns the blocks that have been created through this supply chain.
 
+Please find a short video introduction of our app under `ChocCheck.mp4`
 You can click through the prototype of the application here: https://leonieintat914212.invisionapp.com/console/share/QB1X65GQT2#screens/496812889
 
 
